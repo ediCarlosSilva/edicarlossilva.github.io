@@ -36,7 +36,7 @@ export default function ProjetosPage() {
 
   return (
     <>
-      <FormularioProjetos aoProjetoCadastrado={projeto => aoNovoProjetoCadastrado(projeto)} />
+      <FormularioProjetos tiposProjetos={tiposProjetos.map(tipoProjeto => tipoProjeto.nome)} aoProjetoCadastrado={projeto => aoNovoProjetoCadastrado(projeto)} />
 
       {
         tiposProjetos.map(tipoProjeto => <TiposProjetos

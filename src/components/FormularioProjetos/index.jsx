@@ -13,14 +13,6 @@ export default function Formulario(props) {
   const [deploy, setDeploy] = useState('');
   const [tipoProjeto, setTipoProjeto] = useState('');
 
-
-  const tiposProjetos = [ 
-    'Estudo',
-    'Challenge',
-    'Teste Técnico',
-    'Voluntário'
-  ]
-
   const aoSalvar = (evento) => {
     evento.preventDefault();
     console.log('form foi submetido. ', nome, descricao, imagem, repositorio, deploy, tipoProjeto);
@@ -76,7 +68,7 @@ export default function Formulario(props) {
         <ListaSuspensa 
           obrigatorio="true" 
           label="Tipo Projeto" 
-          tipos={tiposProjetos}
+          tipos={props.tiposProjetos}
           valor={tipoProjeto}
           aoAlterado={valor => setTipoProjeto(valor)}
         />
