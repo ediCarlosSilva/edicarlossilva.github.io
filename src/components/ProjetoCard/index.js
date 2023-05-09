@@ -1,11 +1,10 @@
 import './Projeto.css';
 import { Link } from 'react-router-dom';
 
-const ProjetoCard = (props) => {
+const ProjetoCard = ({deploy, descricao, imagem, repositorio, tipoProjeto, titulo}) => {
 
-    console.log(props);
 
-        // {
+    // {
     //     deploy: "link do deploy",
     //     descricao: "uma descricao do projeto",
     //     imagem:"http://",
@@ -23,8 +22,9 @@ const ProjetoCard = (props) => {
                     alt="Imagem de capa do projeto"
                 />
                 <h2 className="titulo">
-                    {props.titulo}
+                    {titulo}
                 </h2>
+                <h4>{descricao}</h4>
 
             </div>
         </Link>

@@ -30,9 +30,10 @@ export default function ProjetosPage() {
   const [projetos, setProjetos] = useState([]);
 
   const aoNovoProjetoCadastrado = (projeto) => {
-    console.log(projeto);
     setProjetos([...projetos, projeto]);
   }
+
+
 
   return (
     <>
@@ -44,7 +45,7 @@ export default function ProjetosPage() {
             nome={tipoProjeto.nome} 
             corPrimaria={tipoProjeto.corPrimaria}
             corSecundaria={tipoProjeto.corSecundaria}
-            projetos={projetos}
+            projetos={projetos.filter(projeto => projeto.tipoProjeto === tipoProjeto.nome)}
           />)
       }
 

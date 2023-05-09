@@ -15,7 +15,6 @@ export default function Formulario(props) {
 
   const aoSalvar = (evento) => {
     evento.preventDefault();
-    console.log('form foi submetido. ', titulo, descricao, imagem, repositorio, deploy, tipoProjeto);
     props.aoProjetoCadastrado({
       titulo,
       descricao,

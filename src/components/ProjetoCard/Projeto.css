@@ -5,6 +5,7 @@
     border-radius: 0px 0px 10px 10px;
     padding-bottom: 1.5rem;
     transition: transform .2s;
+    margin: 1rem 0;
 }
 
 .projeto:hover {
