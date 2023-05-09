@@ -23,6 +23,12 @@ export default function Formulario(props) {
       deploy,
       tipoProjeto
     })
+    setTitulo('');
+    setDescricao('');
+    setImagem('');
+    setRepositorio('');
+    setDeploy('');
+    setTipoProjeto('');
   }
 
   return (

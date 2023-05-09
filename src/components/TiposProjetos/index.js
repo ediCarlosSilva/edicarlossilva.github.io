@@ -15,12 +15,14 @@ const TiposProjetos = (props) => {
     // }
 
     return (
-        <section className='tipoProjeto' style={{ backgroundColor: props.corSecundaria }}>
+        props.projetos.length > 0 && <section className='tipoProjeto' style={{ backgroundColor: props.corSecundaria }}>
             <h3 style={{ borderBottom: `4px solid ${props.corPrimaria}` }}>{props.nome}</h3>
             <div className='projetos'>
                 {
                     props.projetos.map(projeto =>
                         <ProjetoCard
+                            corDaBorda={props.corPrimaria}
+                            key={projeto.titulo}
                             titulo={projeto.titulo}
                             descricao={projeto.descricao}
                             imagem={projeto.imagem}
