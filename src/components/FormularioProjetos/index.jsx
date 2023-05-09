@@ -6,7 +6,7 @@ import './FormularioProjetos.css';
 
 export default function Formulario(props) {
 
-  const [nome, setNome] = useState('');
+  const [titulo, setTitulo] = useState('');
   const [descricao, setDescricao] = useState('');
   const [imagem, setImagem] = useState('');
   const [repositorio, setRepositorio] = useState('');
@@ -15,9 +15,9 @@ export default function Formulario(props) {
 
   const aoSalvar = (evento) => {
     evento.preventDefault();
-    console.log('form foi submetido. ', nome, descricao, imagem, repositorio, deploy, tipoProjeto);
+    console.log('form foi submetido. ', titulo, descricao, imagem, repositorio, deploy, tipoProjeto);
     props.aoProjetoCadastrado({
-      nome,
+      titulo,
       descricao,
       imagem,
       repositorio,
@@ -31,11 +31,11 @@ export default function Formulario(props) {
       <form onSubmit={aoSalvar}>
         <h2>Preencha os dados do projeto</h2>
         <CampoTexto 
-          valor={nome} 
-          aoAlterado={valor => setNome(valor)}
+          valor={titulo} 
+          aoAlterado={valor => setTitulo(valor)}
           obrigatorio="true" 
-          label="nome" 
-          placeholder="Digite seu nome do projeto" 
+          label="titulo" 
+          placeholder="Digite o título do projeto" 
         />
         <CampoTexto 
           valor={descricao} 
