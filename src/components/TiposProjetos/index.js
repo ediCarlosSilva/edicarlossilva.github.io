@@ -8,8 +8,9 @@ const TiposProjetos = (props) => {
     return (
         <section className='tipoProjeto' style={{backgroundColor: props.corSecundaria}}>
             <h3 style={{borderBottom: `4px solid ${props.corPrimaria}`}}>{props.nome}</h3>
-            <ProjetoCard />
-            {/* <Projeto /> */}
+            {
+                props.projetos.map(projeto => <ProjetoCard />)
+            }
         </section>
     )
 }

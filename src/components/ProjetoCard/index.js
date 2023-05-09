@@ -1,7 +1,7 @@
 import './Projeto.css';
 import { Link } from 'react-router-dom';
 
-const ProjetoCard = () => {
+const ProjetoCard = (props) => {
     return (
         <Link to={`/projetos/1`}>
             <div className="projeto">

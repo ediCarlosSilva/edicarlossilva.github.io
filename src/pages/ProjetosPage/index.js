@@ -44,6 +44,7 @@ export default function ProjetosPage() {
             nome={tipoProjeto.nome} 
             corPrimaria={tipoProjeto.corPrimaria}
             corSecundaria={tipoProjeto.corSecundaria}
+            projetos={projetos}
           />)
       }
 
