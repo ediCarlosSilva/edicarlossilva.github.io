@@ -6,8 +6,12 @@
   --cor-de-link: #464646;
   --azul-claro: #aceff9;
   --azul-escuro: #2A7AE4;
+  --azul-escuro2: #041833;
+  --azul-medio: #1875E8;
   --preto-transparente: rgba(18, 18, 18, .95);
   --cinza-escuro: #878787;
+  --cor-fonte-principal: #041833;
+  --cor-fonte-post: #444444;
   --fundo-tela: #EDEDED;
   --fundo-formulario: #EAF2FD;
   --preto: #000;
@@ -19,6 +23,8 @@
   --cor-contraste-claro: #fff;
   --fonte-tamanho-botao: 1.2rem;
   --vermelho-primario: #cd0000;
+
+
 }
 
 html {

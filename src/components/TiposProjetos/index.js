@@ -23,10 +23,12 @@ const TiposProjetos = (props) => {
                         <ProjetoCard
                             corDaBorda={props.corPrimaria}
                             key={projeto.titulo}
+                            id={projeto.id}
                             titulo={projeto.titulo}
                             descricao={projeto.descricao}
                             imagem={projeto.imagem}
                             repositorio={projeto.repositorio}
+                            origem={projeto.origem}
                             deploy={projeto.deploy}
                             tipoProjeto={projeto.tipoProjeto}
                         />)

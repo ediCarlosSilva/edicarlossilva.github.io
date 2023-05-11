@@ -2,14 +2,23 @@
     text-align: center;
     width: 250px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px;
     padding-bottom: 1.5rem;
     transition: transform .2s;
-    margin: 1rem 0;
+    margin: 1rem 2rem;
+    background-color: #fff;
+}
+
+.projeto img {
+    border-radius: 10px 10px 0 0;
 }
 
 .projeto:hover {
     transform: translate(0, -1rem);
+}
+
+.projeto__detalhes {
+    padding: 0 1rem;
 }
 
 .capa {
@@ -19,9 +28,14 @@
 .titulo {
     font-family: var(--fonte-secundaria);
     font-size: 1.25rem;
-    color: var(--azul-escuro);
+    color: var(--azul-escuro2);
     line-height: 1.75rem;
     margin: 1.5rem 0 1.75rem;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
 }
 
 @media (max-width: 1100px) {
