@@ -1,0 +1,178 @@
+/*Sessão Title*/
+
+section.title {
+    width: 80%;
+    height: calc(100vh - 180px);
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.title__subsection--links {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.title__div {
+    display: flex;
+    align-items: center;
+}
+
+.title__profile {
+    display: inline-block;
+    /* estouro: ocuto; */
+    overflow: hidden;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    order: 2;
+    width: 100%;
+    margin-left: 1rem;
+    /* object-fit: cover; */
+}
+
+.title__subsection {
+    margin: 3rem 0;
+}
+
+.title__network--box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__network {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__network__item {
+    display: inline;
+}
+
+.title__network--name {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.title__network__item a {
+    text-indent: -9999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.title__network__item a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    /* margin-left: 2rem; */
+    background-size: 2rem;
+}
+
+
+.title__network__item a[href*="facebook"] {
+    background-image: url(../../assets/facebook.png);
+    text-indent: -9999px;
+}
+
+.title__network__item a[title="github"] {
+    background-image: url(../../assets/github.png);
+    text-indent: -9999px;
+}
+
+.title__network__item a[href*="instagram"] {
+    background-image: url(../../assets/instagram.png);
+    text-indent: -9999px;
+}
+
+.title__network__item a[href*="linkedin"] {
+    background-image: url(../../assets/linkedin.png);
+    text-indent: -9999px;
+
+}
+
+.title__network__item a[title="Resume"] {
+    background-image: url(../../assets/resume.png);
+    text-indent: -9999px;
+}
+
+.title__network__item a[title="View this pdf file"] {
+    display: none;
+}
+
+.title__bio--front {
+    display: inline-block;
+    font-family: 'Fasthand', cursive;
+    font-size: 2.2rem;
+    color: var(--cinza-escuro);
+}
+
+.title__bio--front:last-child {
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    /*title*/
+    section.title {
+        width: 90%;
+        height: calc(100vh - 110px);
+    }
+
+    .title__bio--front {
+        line-height: 3.5rem;
+    }
+
+    .title__subsection {
+        font-weight: 400;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 412px) {
+
+    /*Titulo*/
+    section.title {
+        margin-top: 1rem;
+        height: 100%;
+    }
+
+    .title__div {
+        flex-direction: column;
+    }
+
+    .title__profile {
+        order: 0;
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .title__bio {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .title__bio--front {
+        font-size: 1.5rem;
+        line-height: 0;
+    }
+
+    .title__bio--front:last-child {
+        padding: 0;
+    }
+
+    .title__subsection {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .title__network--box {
+        gap: 10px;
+    }
+
+    .title__network--name {
+        text-align: center;
+    }
+}

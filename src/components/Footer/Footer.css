@@ -1,0 +1,7 @@
+section.footer {
+    background-color: var(--cor-de-link);
+    color: var(--azul-claro);
+    font-weight: bold;
+    text-align: center;
+    padding: .5rem 0;
+}

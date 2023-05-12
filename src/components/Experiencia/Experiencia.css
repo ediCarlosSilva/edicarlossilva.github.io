@@ -1,0 +1,69 @@
+section.experience {
+    height: calc(100vh - 20px);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.experience__title {
+    text-align: center;
+}
+
+.experience__jobs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.experience__jobs__list {
+    padding: 0;
+}
+
+.experience__jobs__item__img {
+    background-color: var(--branco);
+    width: 368px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.experience__Jobs__item--boxImage {
+    width: 192px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+}
+
+.experience__jobs__item__img img,
+img[src*="Fatec-sorocaba"] {
+    max-width: 192px;
+    max-height: 130px;
+    /* margin: 78px 88px; */
+}
+
+.experience__jobs__item__subtitle {
+    font-weight: bold;
+}
+
+/*Mobile*/
+@media (max-width: 412px) {
+
+    section.experience {
+        height: auto;
+    }
+
+    .experience__title {
+        margin: 1rem 0;
+    }
+
+    .experience__jobs__item__img {
+        padding: 0;
+        height: auto;
+    }
+}
