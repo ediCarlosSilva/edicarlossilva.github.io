@@ -12,12 +12,12 @@ export default function Menu() {
                 </header>
                 <nav>
                     <ul className="menu__list">
-                        <li className="menu__list__item"><a href="/#sobremim">Sobre mim</a></li>
-                        <li className="menu__list__item"><a href="/#skills">Skills</a></li>
-                        <li className="menu__list__item"><a href="/#hobbies">Hobbies</a></li>
-                        <li className="menu__list__item"><a href="/#formacao">Formações e Cursos</a></li>
-                        <li className="menu__list__item"><a href="/#experiencia">Experiência</a></li>
-                        <li className="menu__list__item"><Link to="/projetos">Projetos</Link></li>
+                        <li className="menu__list__item"><Link to="/SobreMim">Sobre mim</Link></li>
+                        <li className="menu__list__item"><Link to="/Skills">Skills</Link></li>
+                        <li className="menu__list__item"><Link to="/Hobbies">Hobbies</Link></li>
+                        <li className="menu__list__item"><Link to="/Formacao">Formações e Cursos</Link></li>
+                        <li className="menu__list__item"><Link to="/Experiencia">Experiência</Link></li>
+                        <li className="menu__list__item"><Link to="/Projetos">Projetos</Link></li>
                         <li className="menu__list__item__contato"><a href="/#contato">edi_csilva@hotmail.com</a></li>
                     </ul>
                 </nav>
