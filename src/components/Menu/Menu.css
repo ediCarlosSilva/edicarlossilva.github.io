@@ -15,9 +15,14 @@ section.menu {
     display: flex;
 }
 
-.menu__title {
+.menu__title--edi {
     color: var(--azul-claro);
     margin-left: 2rem;
+}
+.menu__title--projetos {
+    color: var(--azul-claro);
+    margin-left: 2rem;
+    display: none;
 }
 
 .menu nav a {
@@ -40,10 +45,21 @@ section.menu {
         position: static;
         /* position: -webkit-sticky;
         top: 0; */
+        /* flex-direction: column; */
+        height: auto;
+        flex-direction: column;
+    }
+
+    .menu__title--projetos {
+        display: block;
+    }
+
+    .menu__list .projetos {
+        display: none;
     }
 
     /* Menu */
-    .menu__list__item:nth-child(-n + 6) {
+    /* .menu__list__item:nth-child(-n + 6) {
         display: none;
-    }
+    } */
 }

@@ -7,7 +7,10 @@ export default function Menu() {
             <section className="menu">
                 <header>
                     <Link to="/">
-                        <h1 className="menu__title">Edi Carlos</h1>
+                        <h1 className="menu__title--edi">Edi Carlos</h1>
+                    </Link>
+                    <Link to="/Projetos">
+                        <h1 className="menu__title--projetos">Projetos</h1>
                     </Link>
                 </header>
                 <nav>
@@ -17,8 +20,8 @@ export default function Menu() {
                         <li className="menu__list__item"><Link to="/Hobbies">Hobbies</Link></li>
                         <li className="menu__list__item"><Link to="/Formacao">Formações e Cursos</Link></li>
                         <li className="menu__list__item"><Link to="/Experiencia">Experiência</Link></li>
-                        <li className="menu__list__item"><Link to="/Projetos">Projetos</Link></li>
-                        <li className="menu__list__item__contato"><a href="/#contato">edi_csilva@hotmail.com</a></li>
+                        <li className="menu__list__item projetos"><Link to="/Projetos">Projetos</Link></li>
+                        {/* <li className="menu__list__item__contato"><a href="/#contato">edi_csilva@hotmail.com</a></li> */}
                     </ul>
                 </nav>
             </section>
