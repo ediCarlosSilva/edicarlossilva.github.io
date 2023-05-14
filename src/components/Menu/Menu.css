@@ -63,3 +63,22 @@ section.menu {
         display: none;
     } */
 }
+
+@media (max-width: 412px) {
+    section.menu {
+        padding: 1rem;
+    }
+
+    section.menu header .menu__title--edi {
+        margin-left: 0;
+    }
+
+    section.menu nav {
+        width: 100%;
+    }
+
+    .menu__list {
+        padding-left: 0;
+        justify-content: space-around;
+    }
+}
