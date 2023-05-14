@@ -9,7 +9,7 @@ export default function Menu() {
                     <Link to="/">
                         <h1 className="menu__title--edi">Edi Carlos</h1>
                     </Link>
-                    <Link to="/">
+                    <Link to="/SobreMim">
                         <h1 className="menu__title--sobremim">Sobre mim</h1>
                     </Link>
                     <Link to="/Projetos">
