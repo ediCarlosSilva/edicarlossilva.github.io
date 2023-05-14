@@ -19,7 +19,7 @@ section.menu {
     color: var(--azul-claro);
     margin-left: 2rem;
 }
-.menu__title--projetos {
+.menu__title--projetos, .menu__title--sobremim {
     color: var(--azul-claro);
     margin-left: 2rem;
     display: none;
@@ -50,11 +50,11 @@ section.menu {
         flex-direction: column;
     }
 
-    .menu__title--projetos {
+    .menu__title--projetos, .menu__title--sobremim {
         display: block;
     }
 
-    .menu__list .projetos {
+    .menu__list .projetos, .menu__list .sobremim {
         display: none;
     }
 
