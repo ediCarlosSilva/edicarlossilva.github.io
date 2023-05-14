@@ -28,7 +28,7 @@ export default function Menu() {
                     </ul>
                 </nav>
             </section>
-            <button href="#" className="btn"></button>
+            {/* <button href="#" className="btn"></button> */}
         </>
     )
 }

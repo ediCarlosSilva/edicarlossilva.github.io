@@ -11,7 +11,7 @@
     },
     {
         "id": "2",
-        "deploy": "Somente Local",
+        "deploy": "https://edicarlossilva.github.io/js-crud/",
         "descricao": "Utilização de javascript (vanilla) para aplicar os conceitos de CRUD (CREATE, READ, UPDATE, DELETE)",
         "imagem": "caminho imagem",
         "repositorio": "https://github.com/ediCarlosSilva/js-crud",
