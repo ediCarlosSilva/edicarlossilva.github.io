@@ -12,7 +12,7 @@ import Academico from './pages/Academico';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
 
       <ScrollToTop />
       <Menu />
