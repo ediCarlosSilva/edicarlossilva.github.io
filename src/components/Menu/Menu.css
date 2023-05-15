@@ -37,7 +37,7 @@ section.menu {
 }
 
 .menu__list__item {
-    /* margin-right: 2rem; */
+    margin-right: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -81,5 +81,9 @@ section.menu {
     .menu__list {
         padding-left: 0;
         justify-content: space-around;
+    }
+
+    .menu__list__item {
+        margin-right: 0;
     }
 }
