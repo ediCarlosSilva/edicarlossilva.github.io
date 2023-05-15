@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/edicarlossilva.github.io/static/css/main.113957ff.css",
+    "main.js": "/edicarlossilva.github.io/static/js/main.f7706150.js",
+    "index.html": "/edicarlossilva.github.io/index.html",
+    "main.113957ff.css.map": "/edicarlossilva.github.io/static/css/main.113957ff.css.map",
+    "main.f7706150.js.map": "/edicarlossilva.github.io/static/js/main.f7706150.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.113957ff.css",
+    "static/js/main.f7706150.js"
+  ]
+}
