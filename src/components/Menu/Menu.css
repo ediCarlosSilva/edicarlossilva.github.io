@@ -13,6 +13,7 @@ section.menu {
 
 .menu header {
     display: flex;
+    align-items: center;
 }
 
 .menu__title--edi {
@@ -36,7 +37,7 @@ section.menu {
 }
 
 .menu__list__item {
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
 
 @media (max-width: 768px) {

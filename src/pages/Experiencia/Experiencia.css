@@ -55,7 +55,7 @@ img[src*="Fatec-sorocaba"] {
 @media (max-width: 412px) {
 
     section.experience {
-        height: auto;
+        height:  calc(100vh - (173px + 96px));
     }
 
     .experience__title {

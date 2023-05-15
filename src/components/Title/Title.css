@@ -141,6 +141,7 @@ section.title {
 
     .title__div {
         flex-direction: column;
+        justify-content: center;
     }
 
     .title__profile {
