@@ -167,6 +167,7 @@ section.title {
     .title__subsection {
         font-size: 1rem;
         margin: 0;
+        font-weight: bold;
     }
 
     .title__network--box {
@@ -175,5 +176,6 @@ section.title {
 
     .title__network--name {
         text-align: center;
+        display: none;
     }
 }

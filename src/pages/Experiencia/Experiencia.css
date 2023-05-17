@@ -65,5 +65,8 @@ img[src*="Fatec-sorocaba"] {
     .experience__jobs__item__img {
         padding: 0;
         height: auto;
+        width: 300px;
     }
+
+    
 }

@@ -63,7 +63,7 @@ section.skills {
 /*Mobile*/
 @media (max-width: 412px) {
     section.skills{
-        height:  calc(100vh - (173px + 96px));
+        height: inherit;
     }
 
     .skills__box {

@@ -11,7 +11,7 @@ export default function Experiencia() {
                         <li className="experience__jobs__item__img"><span className="experience__Jobs__item--boxImage"><img
                             src="assets/malucho.jpg" alt="" /></span></li>
                         <li className="experience__jobs__item__title">
-                            <h4>Malucho Supermarkets</h4>
+                            <h4>Malucho Supermercados</h4>
                         </li>
                         <li className="experience__jobs__item__subtitle">
                             <p>Gerente TI</p>
