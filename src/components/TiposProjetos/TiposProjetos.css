@@ -1,6 +1,6 @@
 .tipoProjeto {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem 2rem;
     /* background-color: ; */
 }
 
@@ -8,6 +8,7 @@
     font-size: 2rem;
     /* border-bottom: 4px solid ; */
     display: inline-block;
+    margin-top: 0;
     padding-bottom: .5rem;
 }
 

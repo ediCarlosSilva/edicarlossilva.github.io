@@ -9,6 +9,7 @@ import SobreMim from './pages/SobreMim';
 import Skills from './pages/Skills';
 import Hobbies from './pages/Hobbies';
 import Academico from './pages/Academico';
+import NaoEncontrado from './pages/NaoEncontrado';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <Route path="/Formacao" element={<Academico />} />
         <Route path="/Experiencia" element={<Experiencia />} />
         <Route path="/Projetos" element={<ProjetosPage />} />
+
+        <Route path="*" element={<NaoEncontrado />} />
       </Routes>
 
       <Footer />
