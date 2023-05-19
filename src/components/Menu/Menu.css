@@ -66,7 +66,7 @@ section.menu {
     } */
 }
 
-@media (max-width: 412px) {
+@media (max-width: 600px) {
     section.menu {
         padding: 1rem;
     }
@@ -94,5 +94,6 @@ section.menu {
 
     .menu__list__item {
         margin-right: 0;
+        font-weight: 400;
     }
 }
