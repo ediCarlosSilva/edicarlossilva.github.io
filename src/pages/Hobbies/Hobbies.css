@@ -71,14 +71,15 @@ section.hobbies {
 }
 
 /*Mobile*/
-@media (max-width: 412px) {
+@media (max-width: 600px) {
     section.hobbies {
         height: inherit;
         padding-bottom: 1rem;
+        height: calc(100vh - (96px + 160px));
     }
 
     .hobbies__box {
-        width: 176px;
+        width: 40%;
         height: 118px;
     }
 }

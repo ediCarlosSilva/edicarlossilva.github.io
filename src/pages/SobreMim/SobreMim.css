@@ -1,7 +1,7 @@
 section.about {
     width: 90%;
     /* height: calc(100vh - 180px); */
-    margin: 0 auto;
+    margin: 1rem auto;
     display: flex;
     /* flex-direction: column; */
     justify-content: center;

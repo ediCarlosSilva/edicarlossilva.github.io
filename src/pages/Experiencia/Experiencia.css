@@ -52,10 +52,10 @@ img[src*="Fatec-sorocaba"] {
 }
 
 /*Mobile*/
-@media (max-width: 412px) {
+@media (max-width: 600px) {
 
     section.experience {
-        height:  calc(100vh - (173px + 96px));
+        height:  calc(100vh - (160px + 96px));
     }
 
     .experience__title {

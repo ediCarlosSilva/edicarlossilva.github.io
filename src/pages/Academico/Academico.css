@@ -41,7 +41,8 @@ img[src*="Fatec-sorocaba"] {
 /*Tablet*/
 @media (max-width: 768px) {
     section.academic {
-        height: 100%;
+        /* height: 100%; */
+        height: calc(100vh - 223px);
     }
 
     .academic__courses__list {

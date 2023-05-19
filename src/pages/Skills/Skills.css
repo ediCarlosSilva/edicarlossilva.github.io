@@ -48,9 +48,22 @@ section.skills {
     width: 32px;
     height: 30px;
 }
+.skills__img img[src*="git.png"] {
+    width: 32px;
+    height: 30px;
+}
 
+.skills__img img[src*="http.png"] {
+    width: 32px;
+    height: 30px;
+}
 /*Tablet*/
 @media (max-width: 768px) {
+
+    section.skills {
+        height: inherit;
+    }
+
     .skills__line {
         justify-content: space-around;
     }
@@ -61,13 +74,14 @@ section.skills {
 }
 
 /*Mobile*/
-@media (max-width: 412px) {
+@media (max-width: 600px) {
     section.skills{
         height: inherit;
+        padding-bottom: 1rem;
     }
 
     .skills__box {
-        width: 176px;
+        width: 40%;
         height: 118px;
     }
 }

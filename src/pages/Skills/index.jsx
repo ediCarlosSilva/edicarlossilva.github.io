@@ -47,6 +47,19 @@ export default function Skills() {
           </ul>
         </div>
 
+        <div className="skills__box">
+          <ul>
+            <li className="skills__img"><img src="assets/git.png" alt="" /></li>
+            <li className="skills__name">Git</li>
+          </ul>
+        </div>
+
+        <div className="skills__box">
+          <ul>
+            <li className="skills__img"><img src="assets/http.png" alt="" /></li>
+            <li className="skills__name">HTTP</li>
+          </ul>
+        </div>
 
       </div>
     </section>
