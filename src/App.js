@@ -28,6 +28,7 @@ function App() {
         <Route path="/Projetos" element={<ProjetosPage />} />
 
         <Route path="*" element={<NaoEncontrado />} />
+        <Route path="/*" element={<NaoEncontrado />} />
       </Routes>
 
       <Footer />

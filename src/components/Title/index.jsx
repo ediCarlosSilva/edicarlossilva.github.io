@@ -37,7 +37,7 @@ export default function Title() {
             </ul>
 
             <ul className="title__network">
-              <li className="title__network__item"><a href="https://edicarlossilva.github.io/edi-carlos-resume.pdf" target="_blank"
+              <li className="title__network__item"><a href="./edi-carlos-resume.pdf" target="_blank"
                 title="Resume" rel="noreferrer">Resume (pdf)</a></li>
               <li className="title__network--name">Resume (pdf)</li>
             </ul>

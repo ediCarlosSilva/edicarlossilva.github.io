@@ -1,5 +1,5 @@
 import styles from './NaoEncontrado.module.css';
-import erro404 from '../../assets/erro_404.avif';
+// import erro404 from '../../assets/erro_404.avif';
 import { useNavigate } from 'react-router-dom';
 import Botao from '../../components/Botao';
 
