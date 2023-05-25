@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import Menu from './components/Menu';
 import ProjetosPage from './pages/ProjetosPage';
 import Home from './pages/Home';
@@ -13,7 +13,8 @@ import NaoEncontrado from './pages/NaoEncontrado';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    // <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
 
       <ScrollToTop />
       <Menu />
@@ -32,7 +33,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
