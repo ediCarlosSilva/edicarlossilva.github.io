@@ -128,5 +128,15 @@
         "tipoProjeto": "Estudo",
         "origem": "Alura",
         "titulo": "Validação de Formulário"
+    },
+    {
+        "id": "15",
+        "deploy": "https://desafio-lacrei-rho.vercel.app/",
+        "descricao": "Teste técnico para ser voluntário front-end.",
+        "imagem": "caminho imagem",
+        "repositorio": "https://github.com/ediCarlosSilva/desafio-lacrei",
+        "tipoProjeto": "Teste Técnico",
+        "origem": "Tech Recruit",
+        "titulo": "React + styled-components"
     }
 ]
