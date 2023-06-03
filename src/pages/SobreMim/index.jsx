@@ -1,6 +1,9 @@
 import './SobreMim.css';
 
 export default function SobreMim() {
+
+  document.title = "SobreMim | Portifólio Edi Carlos";
+
   return (
     <section className="about" id="sobremim">
       <div className="about__container">

@@ -1,6 +1,9 @@
 import './Hobbies.css';
 
 export default function Hobbies() {
+
+  document.title = "Hobbies | Portifólio Edi Carlos";
+
   return (
     <section className="hobbies" id="hobbies">
       <h3 className="hobbies__title">Hobbies</h3>

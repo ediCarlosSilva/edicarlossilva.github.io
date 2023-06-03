@@ -5,6 +5,8 @@ import Botao from '../../components/Botao';
 
 export default function NaoEncontrado() {
 
+    document.title = "404 | Portifólio Edi Carlos";
+
     const navegar = useNavigate();
 
     return (

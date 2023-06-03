@@ -1,6 +1,9 @@
 import './Skills.css';
 
 export default function Skills() {
+
+  document.title = "Skills | Portifólio Edi Carlos";
+
   return (
     <section className="skills" id="skills">
       <h3 className="skills__title">Skills</h3>

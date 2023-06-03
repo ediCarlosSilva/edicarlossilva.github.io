@@ -1,9 +1,9 @@
-import { useState } from "react";
-import FormularioProjetos from "../../components/FormularioProjetos"
 import TiposProjetos from "../../components/TiposProjetos";
 import projetos from './../../json/projetos.json'
 
 export default function ProjetosPage() {
+
+  document.title = "Projetos | Portifólio Edi Carlos";
 
   const tiposProjetos = [
     {

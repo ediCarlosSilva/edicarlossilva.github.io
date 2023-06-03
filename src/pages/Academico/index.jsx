@@ -1,6 +1,9 @@
 import './Academico.css';
 
 export default function Academico() {
+
+  document.title = "Acadêmico | Portifólio Edi Carlos";
+
   return (
     <section className="academic" id="formacao">
       <h2 className="academic__title">Formação Acadêmica</h2>

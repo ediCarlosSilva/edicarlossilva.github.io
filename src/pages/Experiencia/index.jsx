@@ -1,6 +1,9 @@
 import './Experiencia.css';
 
 export default function Experiencia() {
+
+    document.title = "Experiência | Portifólio Edi Carlos";
+
     return (
         <section className="experience" id="experiencia">
             <h2 className="experience__title">Experiência Profissional</h2>
