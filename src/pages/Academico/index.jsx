@@ -3,7 +3,7 @@ import {i18n} from '../../translate/i18n';
 
 export default function Academico() {
 
-  document.title = "Acadêmico | Portifólio Edi Carlos";
+  document.title = `${i18n.t('formacao.title')} | Portifólio Edi Carlos`;
 
   return (
     <section className="academic" id="formacao">

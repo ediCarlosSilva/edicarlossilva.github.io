@@ -3,7 +3,7 @@ import {i18n} from '../../translate/i18n';
 
 export default function Experiencia() {
 
-    document.title = "Experiência | Portifólio Edi Carlos";
+    document.title = `${i18n.t('experiencia.title')} | Portifólio Edi Carlos`;
 
     return (
         <section className="experience" id="experiencia">

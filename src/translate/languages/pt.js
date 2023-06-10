@@ -40,7 +40,7 @@ const messages = {
                 oracao: "Oração"
             },
             formacao: {
-                title: "Formação e Cursos | Portifólio",
+                title: "Formação Acadêmica | Portifólio",
                 titulo: "Formação Acadêmica",
                 formacao1: "Análise e Desenvolvimento de Sistemas",
                 formacao2: "R2 - Matemática",
