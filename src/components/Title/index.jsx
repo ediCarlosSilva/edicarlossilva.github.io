@@ -1,5 +1,6 @@
 import { Container } from '@mui/material';
 import './Title.css';
+import { i18n } from '../../translate/i18n';
 
 export default function Title() {
   return (
@@ -7,11 +8,9 @@ export default function Title() {
       <div className="title__div">
         <img className="title__profile" src="./assets/profile.png" alt="Imagem de Perfil"/>
         <div className="title__container">
-        <h2 className="title__bio">Olá, meu nome é <span className="title__bio--front">Edi Carlos</span>. Sou <span
-              className="title__bio--front">Analista de
-              Sistemas</span> com skills de <br/><span className="title__bio--front">front-end
-              developer</span> and other things.</h2>
-          <h3 className="title__subsection">Atualmente estou participando no projeto Oracle ONE na Alura.</h3>
+        <h2 className="title__bio">{i18n.t('titlePage.title__bio__ola')}<span className="title__bio--front">{i18n.t('titlePage.title__bio__edi')}</span>. {i18n.t('titlePage.title__bio__sou')}<span
+              className="title__bio--front">{i18n.t('titlePage.title__bio__analista')}</span>{i18n.t('titlePage.title__bio__skills')}<br/><span className="title__bio--front">{i18n.t('titlePage.title__bio__frontend')}</span>{i18n.t('titlePage.title__bio__other')}.</h2>
+          {/* <h3 className="title__subsection">Atualmente estou participando no projeto Oracle ONE na Alura.</h3> */}
           <div className="title__network--box">
             <ul className="title__network">
               <li className="title__network__item"><a href="https://www.facebook.com/edicarlos.silva.5205622"

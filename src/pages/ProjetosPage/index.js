@@ -1,5 +1,5 @@
 import TiposProjetos from "../../components/TiposProjetos";
-import projetos from './../../json/projetos.json'
+import projetos from './../../json/projetos.json';
 
 export default function ProjetosPage() {
 

@@ -2,7 +2,7 @@
 
 section.title {
     width: 80%;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 175px);
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
@@ -118,7 +118,7 @@ section.title {
     /*title*/
     section.title {
         width: 90%;
-        height: calc(100vh - 110px);
+        /* height: calc(100vh - 110px); */
     }
 
     .title__bio--front {
@@ -129,6 +129,10 @@ section.title {
         font-weight: 400;
         line-height: 2rem;
     }
+
+    .title__network--name {
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {
@@ -136,7 +140,7 @@ section.title {
     /*Titulo*/
     section.title {
         margin-top: 1rem;
-        height: calc(100vh - 254px);
+        /* height: calc(100vh - 254px); */
     }
 
     .title__div {
