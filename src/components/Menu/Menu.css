@@ -9,6 +9,7 @@ section.menu {
     top: 0;
     border-top: 5px solid var(--azul-claro);
     height: 80px;
+    position: relative;
 }
 
 .menu header {
@@ -16,9 +17,9 @@ section.menu {
     align-items: center;
 }
 
-header .menu__translation {
-    position: fixed;
-    top: .3rem;
+.menu__translation {
+    position: absolute;
+    top: -2px;
     right: 1rem;
     display: flex;
     gap: 1rem;
@@ -26,7 +27,7 @@ header .menu__translation {
 }
 
 .menu__flags {
-    width: 25px;
+    width: 28px;
 }
 
 .menu__flags:hover {

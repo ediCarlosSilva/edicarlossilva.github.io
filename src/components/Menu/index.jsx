@@ -19,15 +19,8 @@ export default function Menu() {
     return (
         <>
             <section className="menu">
+
                 <header>
-                    <div className='menu__translation'>
-                        <div className='menu__flags'>
-                            <img src="./assets/brasil.png" alt="Bandeira do Brasil" onClick={changeLanguage} data-language="pt-br" />
-                        </div>
-                        <div className="menu__flags">
-                            <img src="./assets/eua.png" alt="Bandeira dos Estados Unidos" onClick={changeLanguage} data-language="en" />
-                        </div>
-                    </div>
                     <Link to="/">
                         <h1 className="menu__title--edi">Edi Carlos</h1>
                     </Link>
@@ -48,6 +41,14 @@ export default function Menu() {
                         <li className="menu__list__item projetos"><Link to="/Projetos">{i18n.t('menu.projetos')}</Link></li>
                         {/* <li className="menu__list__item__contato"><a href="/#contato">edi_csilva@hotmail.com</a></li> */}
                     </ul>
+                    <div className='menu__translation'>
+                        <div className='menu__flags'>
+                            <img src="./assets/brasil.png" alt="Bandeira do Brasil" onClick={changeLanguage} data-language="pt-br" />
+                        </div>
+                        <div className="menu__flags">
+                            <img src="./assets/eua.png" alt="Bandeira dos Estados Unidos" onClick={changeLanguage} data-language="en" />
+                        </div>
+                    </div>
                 </nav>
             </section>
             {/* <button href="#" className="btn"></button> */}
