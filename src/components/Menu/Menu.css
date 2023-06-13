@@ -29,6 +29,10 @@ header .menu__translation {
     width: 25px;
 }
 
+.menu__flags:hover {
+    cursor: pointer;
+}
+
 .menu__flags img {
     max-width: 100%;
 }
