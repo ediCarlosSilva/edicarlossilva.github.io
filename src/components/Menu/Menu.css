@@ -16,6 +16,23 @@ section.menu {
     align-items: center;
 }
 
+header .menu__translation {
+    position: fixed;
+    top: .3rem;
+    right: 1rem;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.menu__flags {
+    width: 25px;
+}
+
+.menu__flags img {
+    max-width: 100%;
+}
+
 .menu__title--edi {
     color: var(--azul-claro);
     margin-left: 2rem;

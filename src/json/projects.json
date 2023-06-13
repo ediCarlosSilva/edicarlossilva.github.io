@@ -1,0 +1,142 @@
+[
+    {
+        "id": "1",
+        "deploy": "https://edicarlossilva.github.io/blogWithRest/",
+        "descricao": "In this project, React is used to consume REST API and render blog posts and comments.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/blogWithRest",
+        "tipoProjeto": "Tech Test",
+        "origem": "Tech Recruit",
+        "titulo": "Blog with React"
+    },
+    {
+        "id": "2",
+        "deploy": "https://edicarlossilva.github.io/js-crud/",
+        "descricao": "Use of javascript (vanilla) to apply CRUD concepts (CREATE, READ, UPDATE, DELETE)",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/js-crud",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "Js CRUD"
+    },
+    {
+        "id": 4,
+        "deploy": "https://edicarlossilva.github.io/challenge01-decodificador/",
+        "descricao": "Encoder / Decoder with javascript according to key rules passed in the challenge.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/challenge01-decodificador",
+        "tipoProjeto": "Challenge",
+        "origem": "Alura",
+        "titulo": "Encoder / Decoder"
+    },
+    {
+        "id": "5",
+        "deploy": "https://edicarlossilva.github.io/arquitetura-css/",
+        "descricao": "Development of a page using CSS with the BEM principle (block, Element and Modifier)",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/arquitetura-css",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "CSS Architecture"
+    },
+    {
+        "id": "6",
+        "deploy": "https://edicarlossilva.github.io/explorando-DOM/",
+        "descricao": "Project to practice DOM manipulation (Document Object Model). HTML element creation. Add CSS class",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/explorando-DOM",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "Exploring DOM js"
+    },
+    {
+        "id": "7",
+        "deploy": "https://edicarlossilva.github.io/flexbox-2023/",
+        "descricao": "Using Styling with flexbox. Another alternative for positioning elements on the page.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/flexbox-2023",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "Flexbox"
+    },
+    {
+        "id": "8",
+        "deploy": "https://edicarlossilva.github.io/html5-css3-i/",
+        "descricao": "Very interesting project that I developed using the new HTML 5 tags.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/html5-css3-i",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "HTML5 + CSS3"
+    },
+    {
+        "id": "9",
+        "deploy": "https://edicarlossilva.github.io/layout-responsivo/",
+        "descricao": "Use of media queries in CSS to make the page responsive. Following the principle of mobile first.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/layout-responsivo",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "Responsive Layout"
+    },
+    {
+        "id": "10",
+        "deploy": "https://organo-react-lemon.vercel.app/",
+        "descricao": "Used React to organize teams and collaborators. This project is the basis to adapt to this portifolio.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/organoReact",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "Organizer"
+    },
+    {
+        "id": "11",
+        "deploy": "https://react-componentes-how-to.vercel.app/",
+        "descricao": "This project is a way to dig deeper into how React components work.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/react-componentes-HowTo",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "Componentes React"
+    },
+    {
+        "id": "12",
+        "deploy": "https://react-router-javascript.vercel.app/",
+        "descricao": "Deepening the knowledge of Routes in React",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/React-Router-Javascript",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "React Router"
+    },
+    {
+        "id": "13",
+        "deploy": "https://styled-components-black.vercel.app/",
+        "descricao": "Project to use `Styled-Components` in a project with React.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/styled-components",
+        "tipoProjeto": "Study",
+        "origem": "Alura",
+        "titulo": "Styled-components"
+    },
+    {
+        "id": "14",
+        "deploy": "https://edicarlossilva.github.io/validacaoFormulario/",
+        "descricao": "Validation of the e-mail field, CPF, number of characters, size anc characters required in the password field.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/validacaoFormulario",
+        "tipoProjeto": "Estudo",
+        "origem": "Alura",
+        "titulo": "Form Validation"
+    },
+    {
+        "id": "15",
+        "deploy": "https://desafio-lacrei-rho.vercel.app/",
+        "descricao": "Technical test to be a front-end volunteer.",
+        "imagem": "image path",
+        "repositorio": "https://github.com/ediCarlosSilva/desafio-lacrei",
+        "tipoProjeto": "Tech Test",
+        "origem": "Tech Recruit",
+        "titulo": "React + styled-components"
+    }
+]

@@ -2,11 +2,32 @@ import './Menu.css';
 import { Link } from 'react-router-dom';
 import { i18n } from '../../translate/i18n';
 
+const I18N_STORAGE_KEY = 'i18nextLng';
+
 export default function Menu() {
+
+    function changeLanguage(event) {
+        let selectLanguage = event.target.getAttribute('data-language');
+
+        localStorage.setItem(
+            I18N_STORAGE_KEY,
+            selectLanguage
+        )
+        window.location.reload();
+    }
+
     return (
         <>
             <section className="menu">
                 <header>
+                    <div className='menu__translation'>
+                        <div className='menu__flags'>
+                            <img src="./assets/brasil.png" alt="Bandeira do Brasil" onClick={changeLanguage} data-language="pt-br" />
+                        </div>
+                        <div className="menu__flags">
+                            <img src="./assets/eua.png" alt="Bandeira dos Estados Unidos" onClick={changeLanguage} data-language="en" />
+                        </div>
+                    </div>
                     <Link to="/">
                         <h1 className="menu__title--edi">Edi Carlos</h1>
                     </Link>
