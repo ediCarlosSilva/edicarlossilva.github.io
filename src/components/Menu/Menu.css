@@ -74,6 +74,10 @@ section.menu {
         flex-direction: column;
     }
 
+    .menu__translation {
+        top: 4px;
+    }
+
     .menu__title--projetos, .menu__title--sobremim {
         display: block;
     }
