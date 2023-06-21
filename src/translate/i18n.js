@@ -8,7 +8,7 @@ i18n
     .init({
         debug: false,
         default: ['translations'],
-        fallbackLng: 'pt',
+        fallbackLng: 'en',
         ns: ['translations'],
         resources: messages
     })
