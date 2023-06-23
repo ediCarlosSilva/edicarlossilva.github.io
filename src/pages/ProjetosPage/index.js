@@ -1,28 +1,50 @@
 import TiposProjetos from "../../components/TiposProjetos";
-import projetos from './../../json/projetos.json';
+import projetosPt from './../../json/projetos.json';
+import projectsEn from './../../json/projects.json';
+import { useState } from "react";
+import {i18n} from '../../translate/i18n';
+
+const I18N_STORAGE_KEY = 'i18nextLng';
 
 export default function ProjetosPage() {
 
   document.title = "Projetos | Portifólio Edi Carlos";
 
+  const [language] = useState(localStorage.getItem(I18N_STORAGE_KEY))
+
+  console.log(language);
+  let projetos;
+
+  switch (language) {
+    case 'pt-BR':
+      projetos = projetosPt;
+      break;
+    case 'en':
+      projetos = projectsEn;
+      break;
+    default:
+      projetos = projectsEn;
+
+  }
+
   const tiposProjetos = [
     {
-      nome: 'Estudo',
+      nome: i18n.t('tiposProjeto.estudo'),
       corPrimaria: '#57C278',
       corSecundaria: '#D9F7E9'
     },
     {
-      nome: 'Challenge',
+      nome: i18n.t('tiposProjeto.challenge'),
       corPrimaria: '#82CFFA',
       corSecundaria: '#E8F8FF'
     },
     {
-      nome: 'Teste Técnico',
+      nome: i18n.t('tiposProjeto.testeTecnico'),
       corPrimaria: '#A6D157',
       corSecundaria: '#F0F8E2'
     },
     {
-      nome: 'Voluntário',
+      nome: i18n.t('tiposProjeto.voluntario'),
       corPrimaria: '#E06B69',
       corSecundaria: '#FDE7E8'
     }

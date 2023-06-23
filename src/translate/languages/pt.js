@@ -55,6 +55,17 @@ const messages = {
                     inicio: 2003,
                     fim: "Atual"
                 }
+            },
+            tiposProjeto: {
+                estudo: "Estudo",
+                challenge: "Challenge",
+                testeTecnico: "Teste Técnico",
+                voluntario: "Voluntário"
+            },
+            explicacaoOrigem: {
+                "Alura": "Plataforma de cursos de Tecnologia.",
+                "Frontendmentor": "Site com desafios de frontend.",
+                "Tech Recruit": "Aplicação de teste por tech recruiter."
             }
         }
     }

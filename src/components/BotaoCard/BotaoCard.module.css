@@ -1,7 +1,7 @@
 .botaoCard {
     display: inline-block;
-    border-radius: 2rem;
-    padding: 0.75rem;
+    border-radius: .4rem;
+    padding: 0.3rem;
     font-size: 1.125rem;
     line-height: 1.125rem;
     background-color: var(--azul-medio);
@@ -23,7 +23,7 @@
 
 @media (max-width: 1100px) {
     .botaoCard {
-        padding: 0.6875rem;
+        /* padding: 0.3rem; */
         font-size: 1rem;
         font-weight: bold;
     }

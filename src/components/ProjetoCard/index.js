@@ -1,7 +1,7 @@
 import './Projeto.css';
-import { Link } from 'react-router-dom';
 import hexToRgba from 'hex-to-rgba';
 import BotaoCard from '../BotaoCard';
+import {i18n} from '../../translate/i18n';
 
 const ProjetoCard = ({ id, deploy, descricao, imagem, repositorio, tipoProjeto, titulo, corDaBorda, origem }) => {
 
@@ -26,7 +26,8 @@ const ProjetoCard = ({ id, deploy, descricao, imagem, repositorio, tipoProjeto, 
                 <h2 className="titulo">
                     {titulo}
                 </h2>
-                <h4>{descricao}</h4>
+                <p className='projeto__origem'>Origem: <span style={{ color: `${corDaBorda}`}} title={i18n.t(`explicacaoOrigem.${origem}`)}>{origem}</span></p>
+                <h4 className='projeto__descricao'>{descricao}</h4>
             </div>
             <div className='botoes'>
                 <BotaoCard deploy={deploy}>

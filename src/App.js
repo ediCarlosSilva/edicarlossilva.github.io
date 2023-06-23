@@ -12,6 +12,9 @@ import Academico from './pages/Academico';
 import NaoEncontrado from './pages/NaoEncontrado';
 
 function App() {
+
+  document.title = "Portifólio Edi Carlos";
+
   return (
     // <HashRouter basename={process.env.PUBLIC_URL}>
     <HashRouter basename={process.env.PUBLIC_URL}>

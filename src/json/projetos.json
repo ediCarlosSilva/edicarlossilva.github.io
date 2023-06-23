@@ -138,5 +138,36 @@
         "tipoProjeto": "Teste Técnico",
         "origem": "Tech Recruit",
         "titulo": "React + styled-components"
+    },
+    {
+        "id": "16",
+        "deploy": "https://qr-code-component-4te3i1o6s-edicarlossilva.vercel.app/",
+        "descricao": "Single page com html e css. Resolução de desafios frontend da plataforma frontend mentor",
+        "imagem": "caminho imagem",
+        "repositorio": "https://github.com/ediCarlosSilva/qr-code-component",
+        "tipoProjeto": "Challenge",
+        "origem": "Frontendmentor",
+        "titulo": "Qr Coce Component"
+    },
+    {
+        "id": "17",
+        "deploy": "https://single-price-grid-component-pi-two.vercel.app/",
+        "descricao": "Single page muito bonita com html e css. Desafio para reforçar conceitos de redimensionamento de elementos html, utilizando css e deixando responsivo.",
+        "imagem": "caminho imagem",
+        "repositorio": "https://github.com/ediCarlosSilva/single-price-grid-component",
+        "tipoProjeto": "Challenge",
+        "origem": "Frontendmentor",
+        "titulo": "Single price grid component"
+    },
+    {
+        "id": "18",
+        "deploy": "https://results-summary-component-zeta-gules.vercel.app/",
+        "descricao": "Um summary component com html and css (flexbox)",
+        "imagem": "caminho imagem",
+        "repositorio": "https://github.com/ediCarlosSilva/results-summary-component",
+        "tipoProjeto": "Challenge",
+        "origem": "Frontendmentor",
+        "titulo": "summary component"
     }
+
 ]
