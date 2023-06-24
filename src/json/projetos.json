@@ -162,7 +162,7 @@
     {
         "id": "18",
         "deploy": "https://results-summary-component-zeta-gules.vercel.app/",
-        "descricao": "Um summary component com html and css (flexbox)",
+        "descricao": "Um summary component com html, css (flexbox) e lógica com javascript para atualização dos valores dinamicament.",
         "imagem": "caminho imagem",
         "repositorio": "https://github.com/ediCarlosSilva/results-summary-component",
         "tipoProjeto": "Challenge",
