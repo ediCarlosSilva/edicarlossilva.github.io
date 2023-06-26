@@ -13,9 +13,9 @@ export default function Title() {
           {/* <h3 className="title__subsection">Atualmente estou participando no projeto Oracle ONE na Alura.</h3> */}
           <div className="title__network--box">
             <ul className="title__network">
-              <li className="title__network__item"><a href="https://www.facebook.com/edicarlos.silva.5205622"
-                target="_blank" title="facebook" rel="noreferrer">Facebook</a></li>
-              <li className="title__network--name">Facebook</li>
+              <li className="title__network__item"><a href="https://www.frontendmentor.io/profile/ediCarlosSilva"
+                target="_blank" title="facebook" rel="noreferrer">Frontendmentor</a></li>
+              <li className="title__network--name">Frontendmentor</li>
             </ul>
             <ul className="title__network">
               <li className="title__network__item"><a href="https://github.com/ediCarlosSilva" target="_blank"
@@ -24,16 +24,17 @@ export default function Title() {
             </ul>
 
             <ul className="title__network">
-              <li className="title__network__item"><a href="https://www.instagram.com/edi.carlos.silva/" target="_blank"
-                title="Instagram" rel="noreferrer">Instagram</a></li>
-              <li className="title__network--name">Instagram</li>
-            </ul>
-
-            <ul className="title__network">
               <li className="title__network__item"><a href="https://www.linkedin.com/in/edicarlossilva/" target="_blank"
                 title="Linkedin" rel="noreferrer">Linkedin</a></li>
               <li className="title__network--name">Linkedin</li>
             </ul>
+
+            <ul className="title__network">
+              <li className="title__network__item"><a href="https://www.hackerrank.com/edi_csilva?hr_r=1" target="_blank"
+                title="Instagram" rel="noreferrer">HackerRank</a></li>
+              <li className="title__network--name">HackerRank</li>
+            </ul>
+
 
             <ul className="title__network">
               <li className="title__network__item"><a href="./edi-carlos-resume.pdf" target="_blank"

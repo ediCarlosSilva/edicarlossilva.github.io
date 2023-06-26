@@ -72,8 +72,8 @@ section.title {
 }
 
 
-.title__network__item a[href*="facebook"] {
-    background-image: url(../../assets/facebook.png);
+.title__network__item a[href*="frontendmentor"] {
+    background-image: url(../../assets/frontendmentor.svg);
     text-indent: -9999px;
 }
 
@@ -82,8 +82,8 @@ section.title {
     text-indent: -9999px;
 }
 
-.title__network__item a[href*="instagram"] {
-    background-image: url(../../assets/instagram.png);
+.title__network__item a[href*="hackerrank"] {
+    background-image: url(../../assets/hackerhank.png);
     text-indent: -9999px;
 }
 
