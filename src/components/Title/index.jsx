@@ -24,18 +24,17 @@ export default function Title() {
             </ul>
 
             <ul className="title__network">
-              <li className="title__network__item"><a href="https://www.linkedin.com/in/edicarlossilva/" target="_blank"
-                title="Linkedin" rel="noreferrer">Linkedin</a></li>
-              <li className="title__network--name">Linkedin</li>
-            </ul>
-
-            <ul className="title__network">
               <li className="title__network__item"><a href="https://www.hackerrank.com/edi_csilva?hr_r=1" target="_blank"
                 title="Instagram" rel="noreferrer">HackerRank</a></li>
               <li className="title__network--name">HackerRank</li>
             </ul>
 
-
+            <ul className="title__network">
+              <li className="title__network__item"><a href="https://www.linkedin.com/in/edicarlossilva/" target="_blank"
+                title="Linkedin" rel="noreferrer">Linkedin</a></li>
+              <li className="title__network--name">Linkedin</li>
+            </ul>
+            
             <ul className="title__network">
               <li className="title__network__item"><a href="./edi-carlos-resume.pdf" target="_blank"
                 title="Resume" rel="noreferrer">Resume (pdf)</a></li>
