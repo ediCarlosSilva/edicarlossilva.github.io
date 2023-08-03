@@ -40,18 +40,24 @@ section.menu {
 
 .menu__title--edi {
     color: var(--azul-claro);
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
+
 .menu__title--projetos, .menu__title--sobremim {
     color: var(--azul-claro);
     margin-left: 2rem;
     display: none;
 }
 
+.menu nav ul {
+    margin: 0;
+    padding: 0;
+}
+
 .menu nav a {
-    display: flex;
-    align-items: center;
+    display: block;
     color: var(--branco-suave);
+    padding: 1.85rem 1rem;
 }
 
 .menu__list {
@@ -59,8 +65,12 @@ section.menu {
 }
 
 .menu__list__item {
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
     font-weight: bold;
+}
+
+.menu__list__item a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
@@ -97,8 +107,15 @@ section.menu {
         padding: 1rem;
     }
 
+    section.menu header {
+        width: 100%;
+        justify-content: space-between;
+    }
+
     section.menu header h1 {
         font-size: 1.5rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .menu__list {

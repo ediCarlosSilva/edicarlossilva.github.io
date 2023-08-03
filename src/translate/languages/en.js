@@ -20,7 +20,8 @@ const messages = {
                 title__bio__analista: "Systems Analyst",
                 title__bio__skills: " with skills of ",
                 title__bio__frontend: "front-end developer",
-                title__bio__other: " and other things"
+                title__bio__other: " and other things",
+                title__link__resume: "./edi-carlos-resume-en.pdf"
             },
             sobremim: {
                 title: "About me | Portifólio",

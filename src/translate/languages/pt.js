@@ -5,7 +5,7 @@ const messages = {
                 sobremim: "Sobre mim",
                 skills: "Skills",
                 hobbies: "Hobbies",
-                formacao: "Formação Acadêmica",
+                formacao: "Formação",
                 experiencia: "Experiencia",
                 projetos: "Projetos"
             },
@@ -20,7 +20,8 @@ const messages = {
                 title__bio__analista: "Analista de Sistemas",
                 title__bio__skills: " com skills de ",
                 title__bio__frontend: "front-end developer",
-                title__bio__other: " and other things"
+                title__bio__other: " and other things",
+                title__link__resume: "./edi-carlos-resume.pdf"
             },
             sobremim: {
                 title: "Sobre Mim | Portifólio",

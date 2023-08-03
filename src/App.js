@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Menu from './components/Menu';
 import ProjetosPage from './pages/ProjetosPage';
 import Home from './pages/Home';
@@ -16,7 +16,7 @@ function App() {
   document.title = "Portifólio Edi Carlos";
 
   return (
-    // <HashRouter basename={process.env.PUBLIC_URL}>
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
     <HashRouter basename={process.env.PUBLIC_URL}>
 
       <ScrollToTop />

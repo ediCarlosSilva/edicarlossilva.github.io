@@ -5,3 +5,7 @@ section.footer {
     text-align: center;
     padding: .5rem 0;
 }
+
+section.footer h2 {
+    font-size: 1rem;
+}

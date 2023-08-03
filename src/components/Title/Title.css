@@ -1,8 +1,8 @@
 /*Sessão Title*/
 
 section.title {
-    width: 80%;
-    height: calc(100vh - 175px);
+    width: 90%;
+    min-height: calc(100vh - 175px);
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
@@ -34,6 +34,10 @@ section.title {
 
 .title__subsection {
     margin: 3rem 0;
+}
+
+.title__bio {
+    line-height: 2.5rem;
 }
 
 .title__network--box {
@@ -90,7 +94,12 @@ section.title {
 .title__network__item a[href*="linkedin"] {
     background-image: url(../../assets/linkedin.png);
     text-indent: -9999px;
+}
 
+.title__network__item a[href*="pluralsight"] {
+    background-image: url(../../assets/pluralsight.png);
+    text-indent: -9999px;
+    filter: brightness(0);
 }
 
 .title__network__item a[title="Resume"] {

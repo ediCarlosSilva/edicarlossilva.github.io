@@ -34,12 +34,19 @@ export default function Title() {
                 title="Linkedin" rel="noreferrer">Linkedin</a></li>
               <li className="title__network--name">Linkedin</li>
             </ul>
+
+            <ul className="title__network">
+              <li className="title__network__item"><a href="https://app.pluralsight.com/profile/ediCarlos#0" target="_blank"
+                title="Pluralsight" rel="noreferrer">Pluralsight</a></li>
+              <li className="title__network--name">Pluralsight</li>
+            </ul>
             
             <ul className="title__network">
-              <li className="title__network__item"><a href="./edi-carlos-resume.pdf" target="_blank"
+              <li className="title__network__item"><a href={i18n.t('titlePage.title__link__resume')} target="_blank"
                 title="Resume" rel="noreferrer">Resume (pdf)</a></li>
               <li className="title__network--name">Resume (pdf)</li>
             </ul>
+
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 section.experience {
-    height: calc(100vh - 20px);
+    min-height: calc(100vh - 20px);
     display: flex;
     justify-content: center;
     /* align-items: center; */
