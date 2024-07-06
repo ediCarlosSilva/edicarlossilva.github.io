@@ -30,7 +30,7 @@ export default function Title() {
             </ul>
 
             <ul className="title__network">
-              <li className="title__network__item"><a href="https://www.linkedin.com/in/edicarlossilva/" target="_blank"
+              <li className="title__network__item"><a href="https://www.linkedin.com/in/edi-carlos-silva/" target="_blank"
                 title="Linkedin" rel="noreferrer">Linkedin</a></li>
               <li className="title__network--name">Linkedin</li>
             </ul>
